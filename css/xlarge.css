@@ -1,0 +1,46 @@
+/* 1140 */
+/* HEADER - LOGO- NAV BARRE */
+header
+{
+ margin: auto;
+ width: 1140px;
+}
+
+.boutons-filtres, .filtres
+{
+ margin-right: 1.5rem;
+}
+
+/* CSS COMMUN ARTICLES */
+
+main
+{
+ margin: auto;
+ width: 1140px;
+}
+
+/* MAIN - ACTIVITES A MARSEILLE */
+
+.activites-a-marseille h1
+{
+ margin-left: 2rem;
+}
+
+.bouton-afficher
+{
+ margin-left: 0%;
+}
+
+/* FOOTER - LIENS*/
+
+#lien-footer
+{
+ padding-top: 2rem;
+ width: 1140px;
+ margin: auto;
+}
+
+.lien
+{
+ margin-right: 10rem;
+}

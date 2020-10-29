@@ -1,0 +1,119 @@
+/* 720 */
+/* HEADER - LOGO- NAV BARRE */
+header
+{
+ width: 720px;
+ margin: auto;  
+}
+
+/* MAIN TITRE */
+
+.titre-nav
+{
+ width: 720px;
+ margin: auto;
+}
+
+/* MAIN - RECHERCHE LOCALISATION */
+
+#recherche-localisation
+{
+ margin-bottom: 2rem;
+}
+
+/* MAIN - NAVIGATEUR FILTRES */
+
+#navigateur-filtres
+{
+ width: 720px;
+ margin: auto;
+ font-size: 0.8rem;
+}
+
+.boutons-filtres
+{
+ margin-right: 2rem;
+}
+.filtres 
+{
+ margin-right: 2rem;
+}
+
+/* MAIN - HEBERGEMENT A MARSEILLE */
+
+.hebergements-a-marseille
+{
+ width: 720px;
+ margin: auto;
+ padding-right: 1rem;
+ padding-left: 1rem;
+}
+
+.bouton-afficher
+{
+ margin-left: 0%;
+}
+
+/* MAIN - LES PLUS POPULAIRES */
+
+.les-plus-populaires
+{
+ width: 720px;
+ margin: auto;
+ display:flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.plus-populaires
+{
+ margin-top: 0%;
+ display: flex;
+ flex-direction: column;
+ width: 12rem;
+ height:15rem;
+}
+
+.plus-populaires img 
+{
+ width: 12rem;
+ height: 7.5rem;
+ border-bottom-left-radius: 0px;
+}
+
+.Titre i
+{
+ margin-left: 30rem;
+}
+
+/* MAIN - ACTIVITES A MARSEILLE */
+
+.activites-a-marseille
+{
+ width: 720px;
+ margin: auto;
+ height: auto;
+ display: flex;
+ justify-content: space-around;
+}
+
+.part2
+{
+ margin-bottom: 2rem;
+}
+
+.part1
+{
+ margin-bottom: 2rem;
+}
+
+/* FOOTER - LIENS*/
+
+#lien-footer
+{
+ width: 720px;
+ margin: auto;
+ padding-top: 2rem;
+}
+

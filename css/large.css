@@ -1,0 +1,117 @@
+/* 960 */
+/* HEADER - LOGO- NAV BARRE */
+
+header
+{
+ width: 960px;
+ margin: auto;
+}
+
+/* CSS COMMUN ARTICLES */
+
+main
+{
+ margin: auto;
+ width:960px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+/* MAIN - NAVIGATEUR FILTRES */
+
+.boutons-filtres
+{
+ margin-right: 2rem;
+}
+
+.filtres 
+{
+ margin-right: 2rem;
+}
+
+/* MAIN - HEBERGEMENT A MARSEILLE */
+
+.hebergements-a-marseille
+{
+ width: 50%;
+ margin: 0%;
+ padding: 0%;
+ display: flex;
+ flex-wrap: wrap;
+ height: auto;
+}
+
+.bouton-afficher
+{
+ width: 100%;
+ margin-left: 0%;
+}
+
+/* MAIN - LES PLUS POPULAIRES */
+
+.plus-populaires
+{
+ width:22rem;
+ height:9rem;
+}
+
+.plus-populaires img
+{
+ width: 9rem;
+}
+
+/* MAIN - ACTIVITES A MARSEILLE */
+
+.activites-a-marseille
+{
+ width: 960px;
+ margin: auto;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.activite-large img
+{
+ width: 14rem;
+ height:21rem;
+}
+
+.activite-medium img
+{
+ width: 14rem;
+ height: 10.3rem ;
+}
+
+.activite-small img
+{
+ width:14rem ;
+ height: 8.3rem;
+}
+
+.activite-xsmall img
+{
+ width: 14rem;
+ height: 6.3rem;
+}
+
+.part1
+{
+ margin-right:0;
+ margin-left:0 ;
+}
+
+.activites-a-marseille h2
+{
+ margin-left: 0.3rem;
+}
+
+/* FOOTER - LIENS*/
+
+#lien-footer
+{
+ width: 960px;
+ margin: auto;
+ padding-top: 2rem;
+}
