@@ -32,8 +32,8 @@ Pour chaque projet un scenatio et un cahier des charges m'ait donner .</p>
 * le site doit étre compatible avec la dernière version de chrome et firefox
 * versionner son code avec git et le deployer sur git hub ougit lab 
 
-![](photo/Desktop-1.png)
-![](photo/iphone8-1.png)
+![](photos/Desktop-1.png)
+![](photos/iphone8-1.png)
 
 **ACTIONS CHOISIES**
 
