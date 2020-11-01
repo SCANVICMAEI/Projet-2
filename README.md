@@ -32,8 +32,7 @@ Pour chaque projet un scenario et un cahier des charges m'ait donner .</p>
 * le site doit étre compatible avec la dernière version de chrome et firefox
 * versionner son code avec git et le deployer sur git hub ougit lab 
 
-![](photos/Desktop-1.png)
-![](photos/iphone8-1.png)
+![Desktop-1](https://user-images.githubusercontent.com/72453106/97817796-efe36600-1c9e-11eb-8cb7-2eb4c9d4c06e.png)
 
 **ACTIONS CHOISIES**
 
