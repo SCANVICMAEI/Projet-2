@@ -4,7 +4,7 @@
 **INTRODUCTION**
 
 <p>Voici mon 1 er projet demander pour ma formation developpeur web ( chez Open Class Rooms). 
-Pour chaque projet un scenatio et un cahier des charges m'ait donner .</p>
+Pour chaque projet un scenario et un cahier des charges m'ait donner .</p>
 
 **PRESENTATION DU PROJET** 
 
