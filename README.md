@@ -34,6 +34,8 @@ Pour chaque projet un scenario et un cahier des charges m'ait donner .</p>
 
 ![Desktop-1](https://user-images.githubusercontent.com/72453106/97817796-efe36600-1c9e-11eb-8cb7-2eb4c9d4c06e.png)
 
+![iPhone8 -1](https://user-images.githubusercontent.com/72453106/97817844-3afd7900-1c9f-11eb-9e52-20f61dd2fcda.png)
+
 **ACTIONS CHOISIES**
 
 * j'ai pris le parti de faire 5 formats differents pour le responsive du Site :
