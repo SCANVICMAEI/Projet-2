@@ -19,14 +19,14 @@
 
   <header> 
    
-   <img class="logo-reservia" src="logo/Reservia@3x1.png"alt="Reservia"/>
+   <img class="logo-reservia" src="logo/Reservia@3x1.png" alt="Reservia"/>
    <a class="button-inscription-off-large" href="#"> <strong>S'inscrire</strong> </a>
 
    <nav id="navigateur-top">
       <a class="button-hover-nav-top" href="#ancre-hebergements"> Hébergements</a> 
       <a class="button-hover-nav-top" href="#ancre-activites"> Activités</a> 
       <a class="button-inscription-off-small" href="#">S'inscrire</a> 
-   <nav>
+   </nav>
 
   </header> 
 
@@ -34,16 +34,16 @@
 
     <div class="titre-nav">
     
-     <div id="titre">
+      <div id="titre">
        <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
        <p>En plein centre ville ou en pleine nature</p>
       </div>
 
       <div id="recherche-localisation">
         <i class="fas fa-map-marker-alt"></i>
-        <form  class="recherche-ville method="post" action="traitement.php">
+        <form  class="recherche-ville method"="post" action="traitement.php">
          <label for="ville"></label>
-         <input type="text" name="ville"  placeholder= Marseille,France  maxlength="10"/>
+         <input type="text" name="ville" placeholder="Marseille,France"  maxlength="10"/>
         </form>
         <a class="bouton-recherche" href="#">Recherche</a>
         <a id="bouton-recherche2" href="#"><i class="fas fa-search"></i></a>
@@ -53,7 +53,7 @@
         <div class="filtres">  Filtres </div>
         <a class="boutons-filtres" href="#"> <i class="fas fa-money-bill-wave"></i> Economique </a> 
         <a class="boutons-filtres" href="#"> <i class="fas fa-child"> </i> Familial </a>
-        <a class="boutons-filtres"href="#"> <i class="fas fa-heart"> </i> Romantique </a> 
+        <a class="boutons-filtres" href="#"> <i class="fas fa-heart"> </i> Romantique </a> 
         <a class="boutons-filtres" href="#"> <i class="fas fa-dog"> </i> Animaux autorisés </a>            
       </div>
 
@@ -63,22 +63,21 @@
 
     </div>
 
-    <section class="hebergements-a-marseille">
+    <section class="hebergements-a-marseille" id="ancre-hebergements" >
 
-      <div id="ancre-hebergements"></div>
       <div class="Titre">
        <h1>Hébergements à Marseille</h1>
       </div>
        
-      <article href="#"class="hebergement"> <img src="photos/aubergelacannebiere.jpg" alt="Auberge la Cannebiere">
+      <article href="#" class="hebergement"> <img src="photos/aubergelacannebiere.jpg" alt="Auberge la Cannebiere">
         <div class="description">
          <h2> Auberge la Cannebière</h2>
          <p>Nuit à partir de <strong> 25 €</strong></p>
-         <i class="fas fa-star"></i><i class="fas fa-star"></i></class><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star star-empty"></i>
+         <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star star-empty"></i>
         </div>
       </article> 
         
-      <article href="#"class="hebergement"> <img src="photos/hotelduport.jpg" alt="Hotel du Port">
+      <article href="#" class="hebergement"> <img src="photos/hotelduport.jpg" alt="Hotel du Port">
         <div class="description">
          <h2> Hôtel du port</h2>
          <p>Nuit à partir de 52 €</p>
@@ -94,7 +93,7 @@
         </div>
       </article>
              
-      <article href="#"class="hebergement"> <img src="photos/hoteldelamer.jpg" alt="Hotel de la mer">
+      <article href="#" class="hebergement"> <img src="photos/hoteldelamer.jpg" alt="Hotel de la mer">
         <div class="description">
          <h2> Hôtel de la mer</h2>
          <p>Nuit à partir de 46 €</p>
@@ -102,7 +101,7 @@
         </div>
       </article>
         
-      <article href="#"class="hebergement"> <img src="photos/aubergelepanier.jpg" alt="Auberge le Panier">
+      <article href="#" class="hebergement"> <img src="photos/aubergelepanier.jpg" alt="Auberge le Panier">
         <div class="description">
          <h2> Auberge Le panier</h2>
          <p>Nuit à partir de <strong> 23 €</strong></p>
@@ -156,8 +155,8 @@
 
     </section>
 
-    <section class="activites-a-marseille">
-      <div id="ancre-activites"></div>
+    <section class="activites-a-marseille" id="ancre-activites">
+     
       <div class="Titre">
        <h1> Activités à Marseille </h1>
       </div>
@@ -194,13 +193,13 @@
 
       <article class="part2">
         <div class="activite-small">
-          <a href="#"> <img src="photos/Notre-Dame-de-la-Garde.jpg"alt="Notre Dame de la Garde">
+          <a href="#"> <img src="photos/Notre-Dame-de-la-Garde.jpg" alt="Notre Dame de la Garde">
            <h2>Notre-Dame-de-la-Garde</h2>
           </a>
         </div>
 
         <div class="activite-small">
-          <a href="#"> <img src="photos/Parc-de-Longchamp.jpg"alt="Parc de Longchamp">
+          <a href="#"> <img src="photos/Parc-de-Longchamp.jpg" alt="Parc de Longchamp">
            <h2> Parc Longchamp </h2>
           </a>
         </div>  
@@ -213,19 +212,19 @@
     <div id="lien-footer">
     
       <div class="lien"><h2>A Propos</h2>
-       <a href="en cour"><h3> Fonctionnement du site</h3></a>
-       <a href="en cour"><h3>Condition générales de vente</h3></a>
-       <a href="en cour"><h3>Données et confidentialité</h3></a>
+       <a href="#"><h3> Fonctionnement du site</h3></a>
+       <a href="#"><h3>Condition générales de vente</h3></a>
+       <a href="#"><h3>Données et confidentialité</h3></a>
       </div>
 
       <div class="lien"><h2>Nos hébergements</h2>
-       <a href="en cour"><h3> Chartre qualité</h3></a>
-       <a href="en cour"><h3>Soumettre votre hôtel</h3></a> 
+       <a href="#"><h3> Chartre qualité</h3></a>
+       <a href="#"><h3>Soumettre votre hôtel</h3></a> 
       </div>
 
       <div class="lien"><h2>Assistance</h2>
-       <a href="en cour"><h3>Centre d'aide</h3></a>
-       <a href="en cour"><h3>Nous contacter</h3></a>
+       <a href="#"><h3>Centre d'aide</h3></a>
+       <a href="#"><h3>Nous contacter</h3></a>
      </div>
 
     </div>  
