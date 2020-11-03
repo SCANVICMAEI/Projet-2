@@ -181,7 +181,7 @@ header
 
 /* CSS COMMUN ARTICLES */
 
-.Titre h1
+.Titre h2
 {
  width: 100%;
 }
@@ -243,7 +243,7 @@ header
  width: 90%;
 }
 
-.les-plus-populaires h1
+.les-plus-populaires h2
 {
 margin-left: 1.5rem;
 }
@@ -266,7 +266,7 @@ margin-left: 1.5rem;
  width: 90%;
 }
 
-.activites-a-marseille h2
+.activites-a-marseille h3
 {
  margin-left: 0.5rem;
  margin-top: 1rem;

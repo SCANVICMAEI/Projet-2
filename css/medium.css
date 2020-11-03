@@ -3,7 +3,8 @@
 header
 {
  width: 720px;
- margin: auto;  
+ margin: auto; 
+ background-color: blue;
 }
 
 /* HEADER - LOGO- NAV BARRE */
@@ -44,8 +45,8 @@ header
 
 #navigateur-filtres i
 {
-    padding-left: 0.9rem;
-    padding-top: 1.2rem;
+ padding-left: 0.9rem;
+ padding-top: 1.2rem;
 }
 
 .boutons-filtres
