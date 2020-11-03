@@ -160,7 +160,7 @@ input
 .filtres
 {
  margin-right: 5rem; 
- font-weight: 650;
+ font-weight: 600;
 }
 
 .boutons-filtres
@@ -187,7 +187,6 @@ input
  padding: 13px;
  margin-right:0.5rem;
  background-color:#DEEBFF;
- border-color: #DEEBFF;
  font-size:0.8rem;
  margin-top: 2rem;
  margin-bottom: 2rem;
@@ -272,7 +271,6 @@ i.fas.fa-star
 .hebergement 
 {
  border:2px solid white ;
- background-color: white;
  display: flex;
  flex-direction: column;
  width:12rem;
