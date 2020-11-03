@@ -6,6 +6,18 @@ header
  margin: auto;  
 }
 
+/* HEADER - LOGO- NAV BARRE */
+
+.logo-reservia
+{
+ margin-top: 2rem;
+}
+
+#navigateur-top
+{
+ margin-top: 3rem;
+}
+
 /* MAIN TITRE */
 
 .titre-nav
@@ -30,13 +42,20 @@ header
  font-size: 0.8rem;
 }
 
+#navigateur-filtres i
+{
+    padding-left: 0.9rem;
+    padding-top: 1.2rem;
+}
+
 .boutons-filtres
 {
- margin-right: 2rem;
+ margin-right: 0.5rem;
+ margin-top: 1rem;
 }
 .filtres 
 {
- margin-right: 2rem;
+ margin-right: 0.5rem;
 }
 
 /* MAIN - HEBERGEMENT A MARSEILLE */
@@ -45,8 +64,14 @@ header
 {
  width: 720px;
  margin: auto;
- padding-right: 1rem;
- padding-left: 1rem;
+}
+
+.hebergements-a-marseille img
+{
+ width: 100%;
+ object-fit: cover;
+ height: 110px;
+
 }
 
 .bouton-afficher
@@ -80,6 +105,7 @@ header
  width: 12rem;
  height: 7.5rem;
  border-bottom-left-radius: 0px;
+ border-top-right-radius: 15px;
 }
 
 .Titre i

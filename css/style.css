@@ -10,7 +10,6 @@ header
  margin: auto;
  display: flex;
  justify-content: space-between;
- align-items: baseline;
 }
 
 nav a
@@ -68,9 +67,13 @@ nav a:hover
 
 input
 {
- border: none;
+ height: 100%;
+ border-left: 0;
+ border-right: 0;
  text-align: center;
- padding-top: 1rem;
+ padding: 0.75rem;
+ box-sizing: border-box;
+ border: 1px solid rgba(0, 0,0, 0);
 }
 
 #recherche-localisation a
@@ -128,9 +131,10 @@ input
 
 #navigateur-filtres
 {
- display: flex;
- align-items: baseline;
- margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  align-items: baseline;
 }
 
 #navigateur-filtres a:hover
@@ -142,11 +146,15 @@ input
 
 #navigateur-filtres i
 {
- border:1.3rem solid #DEEBFF;
  background-color:#DEEBFF;
  border-radius: 100%;
  color: #0065FC;
  margin-right:0.5rem;
+ height: 100%;
+ width: 2.75rem;
+ box-sizing: border-box;
+ padding-top: 1rem;
+ padding-left: 0.8rem;
 }
 
 .filtres
@@ -258,7 +266,7 @@ i.fas.fa-star
 
 .hebergement:hover
 {
- box-shadow:4px 4px 8px #555;
+ box-shadow:3px 3px 5px grey;
 }
 
 .hebergement 
@@ -298,14 +306,13 @@ i.fas.fa-star
 .bouton-afficher:hover
 {
  color: #0065FC;
- font-weight: 700;
 }
 
 /* MAIN - LES PLUS POPULAIRES */
 
-.les-plus-populaires a:hover
+.les-plus-populaires article:hover
 {
- box-shadow:4px 4px 8px #555;
+ box-shadow:3px 3px 5px grey;
 }
 
 .plus-populaires h2
@@ -392,7 +399,7 @@ i.fas.fa-star
 
 .activite-small img
 {
- width:16rem ;
+ width:16rem;
  height: 8.3rem;
 }
 
@@ -411,19 +418,18 @@ i.fas.fa-star
 .activite-xsmall, .activite-small, .activite-medium, .activite-large
 {
  box-shadow:1px 1px 8px #555;
- border:2px solid #F2F2F2;
  border-radius:15px;
 }
 
 .part1 .activite-large:hover
 {
- box-shadow:4px 4px 8px #555; 
+ box-shadow:3px 3px 5px grey; 
  border-radius:15px;
 }
 
 .part2 .activite-small:hover
 {
- box-shadow:4px 4px 8px #555; 
+ box-shadow:3px 3px 5px grey; 
  border-radius:15px;
 }
 

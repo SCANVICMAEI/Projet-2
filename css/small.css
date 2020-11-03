@@ -12,6 +12,11 @@ header
  align-items: baseline;
 }
 
+.logo-reservia
+{
+margin-top: 2.5rem;
+}
+
 .button-inscription-off-small
 {
  display: none;
@@ -76,16 +81,17 @@ header
 
 #titre h1
 {
- font-size: 1.7rem;
+ font-size: 1.1rem;
  letter-spacing: 1px;
  text-align: center;
  margin-bottom: 1rem;
+ width: 100%;
 }
 
 #titre p
 {
  width: 100%;
- font-size: 1.2rem;
+ font-size: 0.9rem;
  text-align: center;
  letter-spacing: 1px;
 }
@@ -134,16 +140,14 @@ header
 #navigateur-filtres
 {
  display: flex;
- flex-direction:column;
  flex-wrap: wrap;
- justify-content: left;
  width: 100%;
- 
 }
 
 .filtres
 {
  margin-bottom:1.5rem ;
+ width: 100%;
 }
 
 #navigateur-filtres a
@@ -214,13 +218,23 @@ header
  order: 1;
  margin: auto;
  padding: 2px 2px;
- background-color: #DCDCDC ;
+ background-color:#F2F2F2;
  align-items: center;
 }
 
 .plus-populaires
 {
  width: 400px;
+}
+
+.plus-populaires img
+{
+ width: 160px;
+}
+
+.fas.fa-chart-line
+{
+    margin-left: 15rem;
 }
 
 /* MAIN - ACTIVITES A MARSEILLE */
@@ -277,13 +291,12 @@ footer
 
 #lien-footer
 {
- background-color: #DCDCDC;
+ background-color: #F2F2F2;
  display: flex;
  flex-direction: column;
  padding-top: 2rem;
  margin: auto;
  width: 540px;
- height: 26rem;
 }
 
 .lien

@@ -7,6 +7,18 @@ header
  margin: auto;
 }
 
+/* HEADER - LOGO- NAV BARRE */
+
+.logo-reservia
+{
+ margin-top: 2rem;
+}
+
+#navigateur-top
+{
+ margin-top: 3rem;
+}
+
 /* CSS COMMUN ARTICLES */
 
 main
@@ -42,6 +54,11 @@ main
  height: auto;
 }
 
+.hebergements-a-marseille img
+{
+ height:110px ;
+}
+
 .bouton-afficher
 {
  width: 100%;
@@ -59,6 +76,11 @@ main
 .plus-populaires img
 {
  width: 9rem;
+}
+
+.plus-populaires h2
+{
+    padding-top: 1rem;
 }
 
 /* MAIN - ACTIVITES A MARSEILLE */

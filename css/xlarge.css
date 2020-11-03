@@ -6,6 +6,18 @@ header
  width: 1140px;
 }
 
+#navigateur-top
+{
+ margin-top: 2rem;
+}
+
+.logo-reservia
+{
+ margin-top: 1.5rem;
+}
+
+/* MAIN - NAVIGATEUR FILTRES */
+
 .boutons-filtres, .filtres
 {
  margin-right: 1.5rem;
@@ -17,6 +29,20 @@ main
 {
  margin: auto;
  width: 1140px;
+}
+
+/* MAIN - HEBERGEMENT A MARSEILLE */
+
+.hebergement img
+{
+ height: 110px;
+}
+
+/* MAIN - LES PLUS POPULAIRES */
+
+.plus-populaires img
+{
+ width: 8rem;
 }
 
 /* MAIN - ACTIVITES A MARSEILLE */
