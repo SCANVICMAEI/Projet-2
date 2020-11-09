@@ -73,6 +73,16 @@ main
  height:9rem;
 }
 
+.les-plus-populaires
+{
+ border-radius: 15px;
+ background-color: #F2F2F2;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ padding-bottom: 0;
+ height:100%;
+}
+
 .plus-populaires img
 {
  width: 9rem;

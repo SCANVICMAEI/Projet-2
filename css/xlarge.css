@@ -40,6 +40,17 @@ main
 
 /* MAIN - LES PLUS POPULAIRES */
 
+
+.les-plus-populaires
+{
+ border-radius: 15px;
+ background-color: #F2F2F2;
+ padding-left: 2rem;
+ padding-right: 2rem;
+ padding-bottom: 4rem;
+ height:100%;
+}
+
 .plus-populaires img
 {
  width: 8rem;
