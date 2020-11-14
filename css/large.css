@@ -70,7 +70,7 @@ main
 .plus-populaires
 {
  width:22rem;
- height:9rem;
+ height:10rem;
 }
 
 .les-plus-populaires
@@ -79,7 +79,6 @@ main
  background-color: #F2F2F2;
  padding-left: 1rem;
  padding-right: 1rem;
- padding-bottom: 0;
  height:100%;
 }
 
@@ -90,7 +89,7 @@ main
 
 .plus-populaires h3
 {
-    padding-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 /* MAIN - ACTIVITES A MARSEILLE */

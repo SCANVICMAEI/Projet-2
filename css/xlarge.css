@@ -4,6 +4,7 @@ header
 {
  margin: auto;
  width: 1140px;
+
 }
 
 #navigateur-top
@@ -51,11 +52,6 @@ main
  height:100%;
 }
 
-.plus-populaires img
-{
- width: 8rem;
-}
-
 /* MAIN - ACTIVITES A MARSEILLE */
 
 .bouton-afficher
@@ -63,6 +59,10 @@ main
  margin-left: 0%;
 }
 
+#ancre-activites h2
+{
+ margin-left: 1rem;
+}
 /* FOOTER - LIENS*/
 
 #lien-footer

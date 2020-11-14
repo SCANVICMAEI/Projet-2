@@ -70,7 +70,7 @@ input
  height: 100%;
  border-left: 0;
  border-right: 0;
- text-align: center;
+ text-align: left;
  padding: 0.75rem;
  box-sizing: border-box;
  border: 1px solid rgba(0, 0,0, 0);
@@ -151,11 +151,13 @@ input
  border-radius: 100%;
  color: #0065FC;
  margin-right:0.5rem;
- height: 100%;
- width: 2.75rem;
+ height: 48px;
+ width: 48px;
  box-sizing: border-box;
+ padding: auto;
  padding-top: 1rem;
- padding-left: 0.8rem;
+ padding-left: 1rem;
+
 }
 
 .filtres
@@ -223,7 +225,7 @@ main
 
 .description
 {
- margin-left: 0.5rem;
+ margin-left: 0.3rem;
 }
 
 main a
@@ -292,6 +294,8 @@ h3
  border-top-right-radius: 15px;
  border-top-left-radius: 15px;
  margin-bottom: 0.5rem;
+ object-fit: cover;
+ width: 191px;
 }
 
 .hebergement p
@@ -316,7 +320,7 @@ h3
 /* MAIN - LES PLUS POPULAIRES */
 
 
-.les-plus-populaires article:hover
+.les-plus-populaires a:hover
 {
  box-shadow:3px 3px 5px grey;
 }
@@ -333,16 +337,11 @@ h3
  font-size: 13px;
 }
 
-.Titre i
+.plus-populaires a
 {
- margin-left: 8.5rem;
-}
-
-.plus-populaires
-{
- width:18.5rem;
- height:7.5rem;
- display:flex;
+  width:18.5rem;
+  height:7.5rem;
+ display: flex;
  flex-direction: row;
  flex-wrap: nowrap;
  border:2px solid #F2F2F2;
@@ -357,6 +356,9 @@ h3
  border-bottom-left-radius: 15px;
  border-top-left-radius: 15px;
  margin-right: 0.5rem; 
+ object-fit: cover;
+ width: 8rem;
+ height: 7.5rem;
 }
 
 /* MAIN - ACTIVITES A MARSEILLE */
@@ -395,24 +397,28 @@ h3
 {
  width: 16rem;
  height:21rem;
+ object-fit: cover;
 }
 
 .activite-medium img
 {
  width: 16rem;
  height: 10.3rem ;
+ object-fit: cover;
 }
 
 .activite-small img
 {
  width:16rem;
  height: 8.3rem;
+ object-fit: cover;
 }
 
 .activite-xsmall img
 {
  width: 16rem;
  height: 6.3rem;
+ object-fit: cover;
 }
 
 .activite-xsmall img, .activite-small img, .activite-medium img, .activite-large img
@@ -490,7 +496,7 @@ footer
  margin-bottom: 1rem;
 }
 
-.lien a :hover
+#lien-footer a:hover
 {
  color: #0065FC;
 }
